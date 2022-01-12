@@ -124,6 +124,23 @@
                 android:onClick="clickedTakeMyBreath"
                 app:srcCompat="@drawable/take_my_breath"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="92dp"
+                android:layout_height="84dp"
+                android:onClick="clickedBadHabits"
+                app:srcCompat="@drawable/badhabitsphoto"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="92dp"
+                android:layout_height="84dp"
+                android:onClick="clickedStay"
+                app:srcCompat="@drawable/stay_photo"
+                tools:ignore="SpeakableTextPresentCheck" />
+
         </LinearLayout>
     </HorizontalScrollView>
 

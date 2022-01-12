@@ -167,7 +167,22 @@ public class MainActivity extends AppCompatActivity {
         isPlayed = false;
         seekBar.setProgress(0);
     }
-
+    public void clickedBadHabits(View view){
+        mp.pause();
+        startButton.setText("Play");
+        songPlaying = R.raw.bad_habits_audio;
+        mp = MediaPlayer.create(this, songPlaying);
+        isPlayed = false;
+        seekBar.setProgress(0);
+    }
+    public void clickedStay(View view){
+        mp.pause();
+        startButton.setText("Play");
+        songPlaying = R.raw.stay_audio;
+        mp = MediaPlayer.create(this, songPlaying);
+        isPlayed = false;
+        seekBar.setProgress(0);
+    }
     public void rewind(View view) {
         mp.seekTo(mp.getCurrentPosition() - 5000);
     }
